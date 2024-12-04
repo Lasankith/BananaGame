@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* Fullscreen styling for body and html */
+body, html {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+/* Center container styling */
+.container {
+    position: relative;
+    width: 60%;
+    height: 80%;
+    background: url("../images/j.png") no-repeat center center;
+    background-size: cover; /* Ensures the image covers the container fully */
+    border-radius: 20px;
+    padding: 50px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Title styling */
+h1 {
+    color: blue;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Game information styling */
+.game-info h2 {
+    margin: 5px 0;
+    color: black;
+}
+
+/* Main game image styling */
+#quest {
+    max-width: 70%;
+    max-height: 300px;
+    margin: 15px 0;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Answer buttons */
+.answers button {
+	background: linear-gradient(to bottom right, #f2c94c, #ff8c00);
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    color:#000000;
+    transition: transform 0.2s, background 0.3s;
+}
+
+.answers button:hover {
+    background: #cc5500;
+    transform: scale(1.1);
+}
+
+/* Note styling */
+.note {
+    font-size: 1.5em;
+    margin-top: 10px;
+    color:crimson;
+}
