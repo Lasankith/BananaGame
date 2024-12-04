@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banana Crush Frenzy</title>
+    <link rel="stylesheet" href="css/indexStyles.css">
+</head>
+<body onclick="playAudio()">
+    <div class="container">
+        <!-- Play Button -->
+		<a href="pages/login.php">
+        <img src="images/playButton.png" alt="Play Button" class="play-button" onclick="playAudio()"></a>
+
+        <!-- Mute Button -->
+        <button id="muteButton" onclick="toggleMute()">🔊</button>
+
+        <!-- Background Music -->
+        <audio id="backgroundMusic" loop autoplay>
+            <source src="music/1.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+    <script src="js/indexJs.js"></script>
+</body>
+</html>
