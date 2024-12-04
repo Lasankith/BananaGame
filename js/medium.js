@@ -115,7 +115,7 @@ function updateUI() {
 
 // Function to send score to the database
 function saveScoreToDatabase(userName, score) {
-    fetch('save_medium_score.php', {
+    fetch('mediumScore.php', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/x-www-form-urlencoded',
